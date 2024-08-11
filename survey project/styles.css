@@ -1,0 +1,49 @@
+label, textarea {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+h4 {
+    margin: 15px 0px 0px 0px;
+}
+
+input[type="number"]{
+    width: 10em;
+}
+
+input{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+body {
+    background-color: #dbeeff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    width: 50%;
+    min-width: 470px;
+    max-width:550px;
+    height: 505px;
+    margin: 100px auto;
+    border: orange ridge 50px
+}
+
+.top-section {
+    margin: 20px;
+    background-color: #edffde;
+    padding: 10px;
+}
+
+textarea {
+    margin: 5px auto;
+    width: 70%;
+    height: 5em;
+}
+
+fieldset{
+    margin: 0 10px;
+}

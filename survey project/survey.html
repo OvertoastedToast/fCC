@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Type Survey</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Favorite Food Survey</h1>
+    <p id="description">Tell us what type of food do you like to eat/cook the most!</p>
+    <form method="post" action="" id="survey-form">
+        <div class="top-section">
+        <label for="name" id="name-label">Your Name: <input type="text" required id="name" placeholder="first and last name"></label>
+        <label for="email" id="email-label">Your Email: <input required type="email" id="email" placeholder="email address"></label>
+        <label for="age" id="number-label"> How old are you? <input type="number" min="5" max="120" id="number" placeholder="enter a number"></label>
+        </div>
+        <fieldset>
+            <legend>Select your favorite type of cuisine</legend>
+            <select id="dropdown" name="type-of-cusine">
+                <option>(select one)</option>
+                <option>Chinese</option>
+                <option>Japanese</option>
+                <option>Korean</option>
+                <option>English</option>
+                <option>Italian</option>
+                <option>French</option>
+                <option>Spanish</option>
+                <option>Mexico</option>
+                <option>Thai</option>
+                <option>Vietnamese</option>
+                <option>Indian</option>
+                <option>Other (specify in the comment box below)</option>
+        </select>
+        <label>Are you more of a gourmet or an executive chef?</label>
+        <label class="inline"><input type="radio" name="role" value="eater" checked> Gourmet</label>
+        <label class="inline"><input type="radio" name="role" value="cooker"> Executive chef</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>How would you describe the cuisine?</legend>
+            <label class="inline" for="unicorn"><input id="unicorn" type="checkbox" value="fantasy"> unicorn</label>
+            <label class="inline" for="wilderness"><input id="wilderness" type="checkbox" value="greens"> wilderness</label>
+            <label class="inline" for="volcano"><input id="volcano" type="checkbox" value="spicy"> volcano</label>
+            <label class="inline" for="sunshine"><input id="sunshine" type="checkbox" value="cozy"> sunshine</label>
+            <label class="inline" for="skyscraper"><input id="skyscraper" type="checkbox" value="urban"> skyscraper</label>
+            <label class="inline" for="coal"><input id="coal" type="checkbox" value="smokey"> coal</label>
+        </fieldset>
+
+        <h4>Comment Box</h4>
+        <label>Tell us about when you first encoutered this cuisine! More type and description welcomed.<textarea></textarea></label>
+        <input type="submit" id="submit">
+    </form>
+  </body>
+</html>
